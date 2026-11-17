@@ -1,8 +1,9 @@
-NAME = trap
+NAME = run
 FLAGS = -Wall -Wextra -Werror -std=c++98
 CPP = c++
 
-SRCS = main.cpp
+SRCS = main.cpp \
+			Animal.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

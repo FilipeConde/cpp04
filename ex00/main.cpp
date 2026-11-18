@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Animal.hpp"
+#include "Cat.hpp"
 
 int main(){
 
@@ -8,6 +9,10 @@ int main(){
 
   a.makeSound();
   b.makeSound();
+
+  Cat c;
+
+  c.makeSound();
 
   return (0);
 }

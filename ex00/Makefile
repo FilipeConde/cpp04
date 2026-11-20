@@ -4,6 +4,8 @@ CPP = c++
 
 SRCS = main.cpp \
 			Animal.cpp \
+			WrongAnimal.cpp \
+			WrongCat.cpp \
 			Cat.cpp \
 			Dog.cpp
 

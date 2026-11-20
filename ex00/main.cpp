@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Animal.hpp"
 #include "Cat.hpp"
+#include "WrongCat.hpp"
 #include "Dog.hpp"
 
 int main(){
@@ -16,6 +17,9 @@ int main(){
 
   c.makeSound();
   d.makeSound();
+
+  WrongCat tche;
+  tche.makeSound();
 
   return (0);
 }
